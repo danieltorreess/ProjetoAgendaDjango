@@ -4,4 +4,7 @@ pip install django
 pip freeze (ver suas bibliotecas instaladas)
 python.exe -m pip install --upgrade pip
 django-admin startproject project .  
-python manage.py runserver (ctrl-c stoprun)
+python manage.py runserver
+(ctrl-c stoprun)
+python manage.py migrate
+python manage.py collectstatic
