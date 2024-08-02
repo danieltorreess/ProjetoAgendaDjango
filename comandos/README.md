@@ -2,6 +2,7 @@
 python -m venv venv
 . venv/bin/activate
 pip install django
+pip install faker
 pip freeze
 django-admin startproject project .
 python manage.py startapp contact

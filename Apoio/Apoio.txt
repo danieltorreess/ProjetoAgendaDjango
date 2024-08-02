@@ -6,5 +6,6 @@ python.exe -m pip install --upgrade pip
 django-admin startproject project .  
 python manage.py runserver
 (ctrl-c stoprun)
+cicerotorres -> @Agenda1102
 python manage.py migrate
 python manage.py collectstatic
